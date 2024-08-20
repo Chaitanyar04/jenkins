@@ -14,16 +14,17 @@
 #     return x/y
 #     # print("x / y")
 
-def add(x, y):
-    return x + y
+import os
+List1 = [8,9,3,6,1,10]
+List1.reverse()
+print("Reversed list is", List1)
 
-def subtract(x, y):
-    return x - y
+List2 = [9, 8, 6, 5, 4, 7, 1, 3]
+List2.sort()
+print("sorted list is", List2)
 
-def multiply(x, y):
-    return x * y
+List3 = []
+List3 = ("List3 =", List3)
 
-def divide(x, y):
-    if y == 0:
-        raise ValueError("Cannot divide by zero!")
-    return x / y
+indexvalue = List2[2:6]
+print("index values are", indexvalue)
