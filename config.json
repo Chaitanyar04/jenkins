@@ -1,0 +1,6 @@
+{
+    "add": [3, 3],
+    "subtract": [3, 3],
+    "multiply": [4, 3],
+    "divide": [15, 5]
+}
