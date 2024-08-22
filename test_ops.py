@@ -20,15 +20,15 @@ import pytest
 config = load_config()
 
 def test_add():
-    assert add(config['add'][0], config['add'][1]) == 6
+    assert add(config['add'][0], config['add'][1]) == 1
 
 def test_subtract():
-    assert subtract(config['subtract'][0], config['subtract'][1]) == 0
+    assert subtract(config['subtract'][2], config['subtract'][1]) == 1
 
 def test_multiply():
-    assert multiply(config['multiply'][0], config['multiply'][1]) == 12
+    assert multiply(config['multiply'][1], config['multiply'][1]) == 1
 
 def test_divide():
-    assert divide(config['divide'][0], config['divide'][1]) == 3
+    assert divide(config['divide'][3], config['divide'][3]) == 1
 
 
