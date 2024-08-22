@@ -15,7 +15,7 @@
 
     
 from ops import *
-# import pytest
+import pytest
 
 config = load_config()
 
